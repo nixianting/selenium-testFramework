@@ -7,10 +7,10 @@ import org.junit.Test;
 import product.Base;
 
 
-public class 社会治安 extends Base{
+public class testdemo extends Base{
 
 	@Test
-	public void test社会治安() throws Exception {
+	public void testDemo() throws Exception {
 		selenium.open("/login.jsp");
 		Thread.sleep(1000);
 	}
